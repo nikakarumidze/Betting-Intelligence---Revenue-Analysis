@@ -713,5 +713,3 @@ Identical pipeline to `churn_users`, with one difference in the final filter ste
 > This table is a self-contained analytical dataset. Every row is a user who was active in May/June 2023 but deposited less frequently in July 2023 — making it ready-to-use for churn risk and revenue recovery analysis.
 
 ---
-
-*Documentation generated from live model inspection via MCP · March 2026*
