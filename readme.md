@@ -41,17 +41,7 @@
 
 ## 1. Data Sources
 
-All data originates from a **single Microsoft Excel workbook** stored on the developer's local machine:
-
-| Property | Value |
-|---|---|
-| **File Type** | Excel Workbook (`.xlsx`) |
-| **File Name** | `დავალება - მონაცემთა ანალიტიკოსი.xlsx` *(Georgian: "Task - Data Analyst")* |
-| **Location** | `C:\Users\nikak\OneDrive\Desktop\` |
-| **Connection Mode** | Import (full data loaded into model on refresh) |
-| **Locale** | `en-US` applied during type conversion |
-
-> ⚠️ **Note:** The file path is hardcoded to a local OneDrive Desktop folder. To refresh this report on another machine, the data source path must be updated in Power Query.
+All data originates from a **single Microsoft Excel workbook** stored on the developer's local machine.
 
 ### Source Sheets
 
