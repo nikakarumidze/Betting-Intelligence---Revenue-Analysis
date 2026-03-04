@@ -1,0 +1,86 @@
+{
+  "name": "Betting Analytics",
+  "dataColors": [
+    "#1f77b4",
+    "#ff7f0e",
+    "#2ca02c",
+    "#d62728",
+    "#9467bd",
+    "#8c564b",
+    "#e377c2",
+    "#7f7f7f",
+    "#bcbd22",
+    "#17becf"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#333333",
+  "tableAccent": "#1f77b4",
+  "good": "#2ca02c",
+  "neutral": "#ff7f0e",
+  "bad": "#d62728",
+  "maximum": "#9467bd",
+  "center": "#bcbd22",
+  "minimum": "#17becf",
+  "null": "#CCCCCC",
+  "textClasses": {
+    "callout": {
+      "fontSize": 32,
+      "fontFace": "Segoe UI",
+      "color": "#333333"
+    },
+    "title": {
+      "fontSize": 16,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#333333"
+    },
+    "header": {
+      "fontSize": 14,
+      "fontFace": "Segoe UI Semibold",
+      "color": "#333333"
+    },
+    "label": {
+      "fontSize": 11,
+      "fontFace": "Segoe UI",
+      "color": "#666666"
+    }
+  },
+  "visualStyles": {
+    "*": {
+      "*": {
+        "title": [{
+          "fontSize": 14,
+          "fontFamily": "Segoe UI",
+          "bold": true,
+          "fontColor": {"solid": {"color": "#333333"}}
+        }],
+        "background": [{
+          "color": {"solid": {"color": "#FFFFFF"}},
+          "transparency": 0
+        }],
+        "border": [{
+          "show": true,
+          "color": {"solid": {"color": "#E0E0E0"}},
+          "radius": 4
+        }]
+      }
+    },
+    "card": {
+      "*": {
+        "general": [{
+          "formatString": "0.00"
+        }],
+        "categoryLabels": [{
+          "fontSize": 11,
+          "fontFamily": "Segoe UI",
+          "color": {"solid": {"color": "#666666"}}
+        }],
+        "labels": [{
+          "fontSize": 24,
+          "fontFamily": "Segoe UI",
+          "color": {"solid": {"color": "#1f77b4"}},
+          "bold": true
+        }]
+      }
+    }
+  }
+}
